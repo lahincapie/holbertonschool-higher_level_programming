@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 for count in range(0, 100):
+    print("{:02d}, ".format(count), end='')
     if count == 99:
-        print("{:d}" .format(count))
-    else:
-        print("{:d}, " .format(count), end='')
+        print("{:d}".format(count))
