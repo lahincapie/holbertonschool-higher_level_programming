@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def main():
     list_arguments = sys.argv
     sum = 0
