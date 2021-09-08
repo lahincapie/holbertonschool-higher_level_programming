@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 import sys
-#lista de argumentos
-#convertirla en enteros
-#sumar los argumentos 15 16 = 31
 
 def main():
     list_arguments = sys.argv
