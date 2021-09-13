@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def new_in_list(my_list, idx, element):
     my_new_list = my_list.copy()
     len_my_list = len(my_list)
