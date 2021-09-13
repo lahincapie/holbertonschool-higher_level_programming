@@ -5,5 +5,5 @@ def no_c(my_string):
     while letter < len(my_string):
         if my_string[letter] != "C" and my_string[letter] != "c":
             my_new_string += my_string[letter]
-        letter += 1
+        letter = letter + 1
     return my_new_string
