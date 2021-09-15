@@ -1,3 +1,9 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    return [[intern ** 2 for intern in extern] for extern in matrix]
+    result = []
+    for extern in matrix:
+        row = []
+        for intern in extern:
+            row.append(intern**2)
+        result.append(row)
+    return result
