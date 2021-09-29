@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-'''Write a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)'''
+'''Write a class Rectangle that defines a
+rectangle by: (based on 0-rectangle.py)'''
 
 
 class Rectangle:
@@ -24,7 +25,6 @@ class Rectangle:
     @property
     def height(self):
         return self.__height
-
 
     @height.setter
     def height(self, value):
