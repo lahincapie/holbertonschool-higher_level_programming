@@ -52,8 +52,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ""
         for i in range(self.__height - 1):
-            print(Rectangle.print_symbol * self.__width)
-        return (Rectangle.print_symbol * self.__width)
+            print(str(self.print_symbol) * self.__width)
+        return (str(self.print_symbol) * self.__width)
 
     def __repr__(self):
         return ("Rectangle({}, {})".format(self.__width, self.__height))
