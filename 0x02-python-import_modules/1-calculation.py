@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+# from <nombre del modulo> import <nombre de la funcion>
+from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
-    # from <nombre del modulo> import <nombre de la funcion>
-    from calculator_1 import add, sub, mul, div
-
     a = 10
     b = 5
     print("{} + {} = {}".format(a, b, add(a, b)))
