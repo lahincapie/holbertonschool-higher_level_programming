@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-'''
-this function contains the MyList class
-'''
+"""class MyList that inherits from list
+"""
+
 
 class MyList(list):
+    """class MyList that inherits from list"""
 
-    '''Public instance method of class MyList'''
     def print_sorted(self):
+        """prints the list, but sorted"""
         print(sorted(self))
