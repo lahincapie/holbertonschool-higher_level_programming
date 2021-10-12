@@ -7,4 +7,4 @@ def read_file(filename=""):
     equivalent try-finally blocks:'''
     with open(filename, mode="r", encoding="utf-8") as f:
         my_file = f.read()
-        print(my_file)
+        print(my_file, end="")
