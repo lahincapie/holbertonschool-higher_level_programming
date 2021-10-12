@@ -6,9 +6,10 @@ is an instance of a class that inherited
 class ; otherwise False.
 '''
 
+
 def inherits_from(obj, a_class):
-    ''' rue if the object
-    is an instance of a class that inherited'''
+    ''' rue if the object is an instance
+    of a class that inherited'''
     if issubclass(obj.__class__, a_class) and type(obj) != a_class:
         return True
     else:
