@@ -5,7 +5,7 @@ from BaseGeometry (7-base_geometry.py).
 '''
 
 
-BaseGeometry = __import__('8-rectangle').Rectangle
+BaseGeometry = __import__('7-base_geometry').Rectangle
 
 
 class Rectangle(BaseGeometry):
