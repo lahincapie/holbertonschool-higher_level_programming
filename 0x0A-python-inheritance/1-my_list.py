@@ -2,10 +2,8 @@
 '''
 this function contains the MyList class
 '''
-class MyList(list):
 
-    def __init__(self):
-        super().__init__()
+class MyList(list):
 
     '''Public instance method of class MyList'''
     def print_sorted(self):
