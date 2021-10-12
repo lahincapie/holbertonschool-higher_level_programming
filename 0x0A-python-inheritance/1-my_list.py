@@ -5,7 +5,7 @@ this function contains the MyList class
 class MyList(list):
 
     def __init__(self):
-        pass
+        super().__init__()
 
     '''Public instance method of class MyList'''
     def print_sorted(self):
