@@ -27,6 +27,6 @@ class Student:
         my_old_dict = self.__dict__
         for attr in json.keys():
             for my_old_attr in my_old_dict.keys():
-                if attr == old_attr:
+                if attr == my_old_attr:
                     my_old_dict[my_old_attr] = json[attr]
             return my_old_dict
