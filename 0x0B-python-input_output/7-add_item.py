@@ -16,8 +16,6 @@ else:
     my_list = []
 
 for args in sys.argv:
-    if args == "./7-add_item.py":
-        continue
     my_list.append(args)
 
 save_to_json_file(my_list, f)
