@@ -22,5 +22,4 @@ if __name__ == "__main__":
         if arg == "7-add_item.py":
             continue
         my_list.append(arg)
-
-    save_to_json_file(my_list, filename)
+        save_to_json_file(my_list, filename)
