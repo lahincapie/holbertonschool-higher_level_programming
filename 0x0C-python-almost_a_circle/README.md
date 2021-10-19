@@ -1023,4 +1023,7 @@ guillaume@ubuntu:~/$
 
 -   GitHub repository:  `holbertonschool-higher_level_programming`
 -   Directory:  `0x0C-python-almost_a_circle`
--   File:  `models/base.py`
+-   File:  `models/base.py`README.md
+main.py
+models
+tests
