@@ -1,11 +1,6 @@
 #!/usr/bin/node
-import { argv } from 'process';
-
-const argvLength = process.argv.length;
-if (argvLength === 2) {
+if (process.argv[2] === undefined) {
   console.log('No argument');
 } else {
-  argv.forEach((val) => {
-    console.log(`${val}`);
-  });
+  console.log(process.argv[2]);
 }
