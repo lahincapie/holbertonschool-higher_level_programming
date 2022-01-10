@@ -28,131 +28,131 @@ In the following URL, what’s the hostname?
 
 `http://www.google.com`
 
-[] google
-[] google.com
-[] www.google.com
-[x] www.google
+- [ ] google
+- [ ] google.com
+- [ ] www.google.com
+- [x] www.google
 
 ### Question #1
 In the following URL, what’s the protocol?
 
 `http://www.google.com`
 
-[x] http
-[] https
-[] ftp
+- [x] http
+- [ ] https
+- [ ] ftp
 
 ### Question #2
 What will be the port number requested by this URL?
 
 `https://www.google.com:8080/apply`
 
-[] 80
-[x] 8080
-[] 8888
+- [ ] 80
+- [x] 8080
+- [ ] 8888
 
 ### Question #3
 What will be the port number requested by this URL?
 
 `http://www.google.com/apply`
 
-[] 8080
-[x] 80
-[] 443
-[]22
+- [ ] 8080
+- [x] 80
+- [ ] 443
+- [ ]22
 
 ### Question #4
 What will be the port number requested by this URL?
 
 `afp://www.google.com/access_in_port_543`
 
-[] 543
-[] 80
-[x] 548
+- [ ] 543
+- [ ] 80
+- [x] 548
 
 ### Question #5
 In the following URL, what’s the sub domain?
 
 `https://api.google.com/v1/auth`
 
-[] .com
-[] api.google
-[x] api
+- [ ] .com
+- [ ] api.google
+- [x] api
 
 ### Question #6
 In the following URL, what’s the sub domain?
 
 `https://api-dev.google.com/v1/auth/new`
 
-[x] api-dev
-[] /v1/auth/new
-[] /v1
+- [x] api-dev
+- [ ] /v1/auth/new
+- [ ] /v1
 
 ### Question #7
 In the following URL, what’s the resource path?
 
 ``https://www.google.com/index.html``
 
-[] /
-[x] index.html
-[] www.google.com/index.html
+- [ ] /
+- [x] index.html
+- [ ] www.google.com/index.html
 
 ### Question #8
 In the following URL, what’s the resource path?
 
 `https://www.google.com/assets/scripts/main.js`
 
-[x] assets/scripts/main.js
-[] main.js
-[] assets/scripts
+- [x] assets/scripts/main.js
+- [ ] main.js
+- [ ] assets/scripts
 
 ### Question #9
 In the following URL, what’s the resource path?
 
 `https://api.google.com/v1/auth/new`
 
-[] v1
-[] v1/auth
-[x] v1/auth/new
-[] v1/auth/new/index.html
+- [ ] v1
+- [ ] v1/auth
+- [x] v1/auth/new
+- [ ] v1/auth/new/index.html
 
 ### Question #10
 In the following URL, what’s the name of the parameter in the query string?
 
 `https://www.google.com/apply?batch=89`
 
-[x] batch
-[] apply
-[] 89
+- [x] batch
+- [ ] apply
+- [ ] 89
 
 ### Question #11
 In the following URL, how many parameters are in the query string?
 
 `https://www.google.com/apply?batch=89&location=SF`
 
-[x] 2
-[] 3
-[] 1
+- [x] 2
+- [ ] 3
+- [ ] 1
 
 ### Question #12
 In the following URL, how many parameters are in the query string?
 
 `https://www.google.com/apply?batch=89&location=SF&name=John%20do%20is%20the%20best%20%3D%20c%20is%20fun`
 
-[x] 3
-[] 2
-[] 1
-[] 4
-[] 5
+- [x] 3
+- [ ] 2
+- [ ] 1
+- [ ] 4
+- [ ] 5
 
 ### Question #13
 When you are typing `https://intranet.hbtn.io` in your browser, which HTTP verb is used?
 
 
-[] POST
-[] DELETE
-[x] GET
-[] PUT
+- [ ] POST
+- [ ] DELETE
+- [x] GET
+- [ ] PUT
 
 ### Question #14
 In this following HTML code, which HTTP verb will be used when you will submit this form?
@@ -165,11 +165,11 @@ In this following HTML code, which HTTP verb will be used when you will submit t
 <FORM>
 ```
 
-[x] POST
-[] FORM
-[] SUBMIT
-[] ENTER
-[] GET
+- [x] POST
+- [ ] FORM
+- [ ] SUBMIT
+- [ ] ENTER
+- [ ] GET
 
 ### Question #15
 In this following HTML code, which HTTP verb will be used when you will submit this form?
@@ -182,185 +182,185 @@ In this following HTML code, which HTTP verb will be used when you will submit t
 <FORM>
 ```
 
-[] GET
-[] UPDATE
-[] POST
-[x] PUT
+- [ ] GET
+- [ ] UPDATE
+- [ ] POST
+- [x] PUT
 
 ### Question #16
 What’s the status code number for a web page that can’t be found?
 
 
-[x] 404
-[] 405
-[] 500
+- [x] 404
+- [ ] 405
+- [ ] 500
 
 ### Question #17
 What’s the status code number for a permanent redirection (moved permanently)?
 
 
-[] 201
-[] 300
-[x] 301
-[] 302
-[] 304
+- [ ] 201
+- [ ] 300
+- [x] 301
+- [ ] 302
+- [ ] 304
 
 ### Question #18
 What’s the status code number for an invalid HTTP request (server can’t understand it)?
 
 
-[] 500
-[] 404
-[x] 400
+- [ ] 500
+- [ ] 404
+- [x] 400
 
 ### Question #19
 What is the first digit of status codes that indicate a server error?
 
 
-[] 1xx
-[] 2xx
-[] 3xx
-[] 4xx
-[x] 5xx
+- [ ] 1xx
+- [ ] 2xx
+- [ ] 3xx
+- [ ] 4xx
+- [x] 5xx
 
 ### Question #20
 Which HTTP request header indicates the browser used by the client sending the request?
 
 
-[] Origin
-[x] User-Agent
-[] I-Am
-[] Browser-Name
+- [ ] Origin
+- [x] User-Agent
+- [ ] I-Am
+- [ ] Browser-Name
 
 ### Question #21
 What is the name of the HTTP request header that defines the size (in bytes) of the message body?
 
 
-[x] Content-Length
-[] Length
-[] Content-Size
-[] Size
+- [x] Content-Length
+- [ ] Length
+- [ ] Content-Size
+- [ ] Size
 
 ### Question #22
 What is the name of the HTTP request header used to send cookies from the client?
 
 
-[] Set-Cookie
-[] Send-Cookie
-[x] Cookie
-[] Cookies
+- [ ] Set-Cookie
+- [ ] Send-Cookie
+- [x] Cookie
+- [ ] Cookies
 
 ### Question #23
 What is the name of the HTTP response header used to send cookies to the client from the server?
 
 
-[] Send-Cookies
-[x] Set-Cookie
-[] Cookie-Setter
+- [ ] Send-Cookies
+- [x] Set-Cookie
+- [ ] Cookie-Setter
 
 ### Question #24
 What is the name of the HTTP response header used to define the size, in bytes, of the body of the response?
 
 
-[] Body-Size
-[] Content-Size
-[] Length
-[x] Content-Length
+- [ ] Body-Size
+- [ ] Content-Size
+- [ ] Length
+- [x] Content-Length
 
 ### Question #25
 What is the name of the HTTP response header used to define the status code of the response?
 
 
-[x] Status
-[] Status-Code
-[] Code
-[] Http-Status
+- [x] Status
+- [ ] Status-Code
+- [ ] Code
+- [ ] Http-Status
 
 ### Question #26
 What is the name of the HTTP response header used to define the formatting of the body? (This header gives details to the client on how to interpret the data received.)
 
 
-[] Type
-[] Content-Format
-[] Format
-[x] Content-Type
+- [ ] Type
+- [ ] Content-Format
+- [ ] Format
+- [x] Content-Type
 
 ### Question #27
 When an HTTP response indicates a redirection, which header defines the URL the client should be redirected to?
 
 
-[] Redirect-URI
-[x] Location
-[] Next-Location
-[] Redirect-Location
-[] Redirect
+- [ ] Redirect-URI
+- [x] Location
+- [ ] Next-Location
+- [ ] Redirect-Location
+- [ ] Redirect
 
 ### Question #28
 What is the name of the HTTP response header that defines a list of available HTTP methods for this URL?
 
 
-[] Verbs
-[x] Allow
-[] Verbs-Allowed
+- [ ] Verbs
+- [x] Allow
+- [ ] Verbs-Allowed
 
 ### Question #29
 What is the `curl` option that defines the HTTP method used?
 
 
-[] -d
-[x] -X
-[] -s
+- [ ] -d
+- [x] -X
+- [ ] -s
 
 ### Question #30
 What is the `curl` option to follow all redirects?
 
 
-[] -s
-[] -X
-[x] -L
+- [ ] -s
+- [ ] -X
+- [x] -L
 
 ### Question #31
 Which `curl` option is used to set an HTTP header to a specific value?
 
 
-[x] -H
-[] -X
-[] -s
+- [x] -H
+- [ ] -X
+- [ ] -s
 
 ### Question #32
 What is the `curl` option to set a body key-value parameter?
 
 
-[] -b
-[] -X
-[x] -d
+- [ ] -b
+- [ ] -X
+- [x] -d
 
 ### Question #33
 What is the `curl` option to set a cookie with a key-value pair?
 
 
-[] -d
-[x] -b
-[] -a
-[] -c
+- [ ] -d
+- [x] -b
+- [ ] -a
+- [ ] -c
 
 ### Question #34
 What is the `curl` option to disable the progression display?
 
 
-[x] -s
-[] -c
-[] -b
-[] -p
+- [x] -s
+- [ ] -c
+- [ ] -b
+- [ ] -p
 
 ### Question #35
 What is the `curl` option to save the body of the resulting response to a file?
 
 
-[] -d
-[] -b
-[] -r
-[x] -o
+- [ ] -d
+- [ ] -b
+- [ ] -r
+- [x] -o
 
 
 
