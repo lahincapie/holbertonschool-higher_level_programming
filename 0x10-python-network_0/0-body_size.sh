@@ -4,4 +4,4 @@
 # and displays the size of the body
 # of the response
 
-curl "$1" -sI |grep "Content-Length"| cut -d ':' -f 2 | cut -d ' ' -f 2
+curl -sI "$1" | grep "Content-Length:" | cut -d " " -f 2
