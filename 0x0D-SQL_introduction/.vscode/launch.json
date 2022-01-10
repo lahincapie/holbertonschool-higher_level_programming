@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "/Volumes/Alejandra/REPOSITORIO/HOLBERTON/holbertonschool-higher_level_programming/0x0D-SQL_introduction",
+      "environment": [],
+      "program": "/Volumes/Alejandra/REPOSITORIO/HOLBERTON/holbertonschool-higher_level_programming/0x0D-SQL_introduction/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "lldb",
+      "externalConsole": true
+    }
+  ]
+}

@@ -22,6 +22,3 @@
 8-rectangle.py
 9-main.py
 9-rectangle.py
-README.md
-__pycache__
-tests
