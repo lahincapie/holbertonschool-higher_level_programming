@@ -106,7 +106,7 @@ guillaume@ubuntu:~/0x14$
 Write a script that prints the number of movies where the character “Wedge Antilles” is present.
 
 - The first argument is the API URL of the [Star wars API](https://swapi-api.hbtn.io/): https://swapi-api.hbtn.io/api/films/
-- Wedge Antilles is character ID `18` - your script `must` use this ID for filtering the result of the API
+- Wedge Antilles is character ID `18` - your script **must** use this ID for filtering the result of the API
 - You must use the module `request`
 
 ```shell
@@ -180,5 +180,44 @@ guillaume@ubuntu:~/0x14$
 - Directory: 0x14-javascript-web_scraping
 - File: 6-completed_tasks.js
 
+********************
 
+### 7. Who was playing in this movie?
+
+Write a script that prints all characters of a Star Wars movie:
+
+- The first argument is the Movie ID - example: `3` = “Return of the Jedi”
+- Display one character name by line
+- You must use the [Star wars API](https://swapi-api.hbtn.io/)
+- You must use the module `request`
+
+```shell
+guillaume@ubuntu:~/0x14$ ./100-starwars_characters.js 3
+Darth Vader
+R2-D2
+Luke Skywalker
+Han Solo
+Leia Organa
+Chewbacca
+Palpatine
+Obi-Wan Kenobi
+Jabba Desilijic Tiure
+Wedge Antilles
+Yoda
+Boba Fett
+Ackbar
+Arvel Crynyd
+Mon Mothma
+Nien Nunb
+Wicket Systri Warrick
+Bib Fortuna
+C-3PO
+Lando Calrissian
+guillaume@ubuntu:~/0x14$
+```
+
+**Repo:**
+- GitHub repository: holbertonschool-higher_level_programming
+- Directory: 0x14-javascript-web_scraping
+- File: 100-starwars_characters.js
 
